@@ -1,23 +1,19 @@
-import logo from './logo.svg';
+import Header from './components/header/Header';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Layout from './components/layout/Layout';
+import BookingFlow from './components/dashboard/BookingFlow';
+import Dashboard from './components/dashboard/Dashboard';
+
 
 function App() {
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     <Layout>
+      <BookingFlow/>
+      <Dashboard/>
+       </Layout>
     </div>
   );
 }
