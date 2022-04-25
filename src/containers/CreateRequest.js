@@ -15,7 +15,7 @@ function CreateRequest() {
     
     const onLocationHandler = (location) => { 
         setEnteredPlace(location); 
-    }
+    } 
     
   return (
     <RequestWrapper>
@@ -23,7 +23,7 @@ function CreateRequest() {
             <SearchCar enteredLocation={onLocationHandler}/>
             <Container>
            
-                    <button className="btn_pink" type="button" onClick={ () => {
+                    <button className="btn_pink" type="submit" onClick={ () => {
                         dispatch(setProgress(2));
                         dispatch(setLocation(enteredPlace));
                     }}>

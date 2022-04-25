@@ -20,9 +20,8 @@ function SearchCar(props) {
     
     function handleLocationChange(event){
         setEnteredPlace(event.target.value);
-        props.enteredLocation(enteredPlace);
-        
-    }
+        props.enteredLocation(event.target.value);
+    } 
     function handleDropLocationChange(event){
         setDropLocation(event.target.value);        
     }

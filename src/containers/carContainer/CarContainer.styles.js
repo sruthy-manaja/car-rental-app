@@ -67,6 +67,10 @@ export const CarResultsWrapper = styled.div`
         border: 1px solid #E6356F;
         padding: 0 30px;
         border-radius: 5px;
+        transition: 0.4s all;
+        :hover{
+            transform: scale(0.9);
+        }
         @media (max-width: 767px) {
             margin: 5px 0;
         }
