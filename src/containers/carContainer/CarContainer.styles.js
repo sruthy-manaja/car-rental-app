@@ -148,6 +148,10 @@ export const SingleCarWrapper = styled.div`
                 background: none;
                 text-align: left;
                 margin: 0;
+                transition: 0.4s all;
+                :hover{
+                    transform: scale(0.9);
+                }
             }
             
         }
