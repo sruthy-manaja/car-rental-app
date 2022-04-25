@@ -69,7 +69,7 @@ function SearchCar(props) {
                     Search Details:
                 </h3>
                 <div className="row">
-                    <Col lg={2} md={2} sm={4} xs={6} className="search_input_wrap">
+                    <Col lg={2} md={2} sm={4} xs={4} className="search_input_wrap">
                     <label>
                         Pick-up location
                         <input 
@@ -92,7 +92,7 @@ function SearchCar(props) {
                     </label>
                     }
                     </Col>
-                    <Col lg={2} md={2} sm={4} xs={6} className="search_input_wrap">
+                    <Col lg={2} md={2} sm={4} xs={4} className="search_input_wrap">
                     <label>
                         Pick-up date
                         <input
@@ -104,7 +104,7 @@ function SearchCar(props) {
                     
                     </label>
                     </Col>
-                    <Col lg={2} md={2} sm={4} xs={6} className="search_input_wrap">
+                    <Col lg={2} md={2} sm={4} xs={4} className="search_input_wrap">
                         <label>
                             Pick-up time
                         <input
@@ -115,7 +115,7 @@ function SearchCar(props) {
                         />
                         </label>
                         </Col>
-                        <Col lg={2} md={2} sm={4} xs={6} className="search_input_wrap">
+                        <Col lg={2} md={2} sm={4} xs={4} className="search_input_wrap">
                     <label>
                         Drop-off date
                         <input
@@ -127,7 +127,7 @@ function SearchCar(props) {
                         
                     </label>
                     </Col>
-                    <Col lg={2} md={2} sm={4} xs={6} className="search_input_wrap">
+                    <Col lg={2} md={2} sm={4} xs={4} className="search_input_wrap">
                         <label>
                             Drop-off time
                         <input
@@ -138,7 +138,7 @@ function SearchCar(props) {
                         />
                         </label>
                         </Col>
-                        <Col lg={2} md={2} sm={4} xs={6} className="search_input_wrap">
+                        <Col lg={2} md={2} sm={4} xs={4} className="search_input_wrap">
                     <label>
                         CURRENCY
                         <select>
