@@ -27,13 +27,13 @@ function BookingFlow() {
                     <FlowItem 
                         flowNumber={3} 
                         isCompleted={progress > 3 ? true : false} 
-                        title={'Choose Extras'} 
+                        title={'Review & Book'} 
                         isActive={progress ===3 ? true : false} 
                     />
                     <FlowItem 
                         flowNumber={4} 
                         isCompleted={progress > 4 ? true : false} 
-                        title={'Review & Book'} 
+                        title={'Booking Confirmation'} 
                         isActive={progress ===4 ? true : false} 
                     />
                 </ul>

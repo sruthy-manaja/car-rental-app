@@ -1,23 +1,11 @@
 import styled from "styled-components"
 
 export const FooterWrapper = styled.div`  
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
   background-color: #efefef;
   position: relative;
   padding-top:80px;
 
     .page-footer{
-      width: 90%;
-
-      .container-fluid{
-          padding: 0;
-      }
-      .row {
-        --bs-gutter-x: 5.5rem;
-      }
       h5{
         color: #333;
         font-size: 16px;
@@ -46,16 +34,6 @@ export const FooterWrapper = styled.div`
         svg{
           font-size: 22px;
         }
-      }
-      .app-icon {
-        a{
-            max-width: 160px !important;
-        margin: 0 0 10px 0;
-        display: block;
-          }
-          img{
-            filter: invert(1);
-          }
       }
       .footer-copyright {
         padding-top: 2em;

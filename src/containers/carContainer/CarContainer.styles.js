@@ -21,6 +21,9 @@ export const SearchcarWrapper = styled.div`
         @media (max-width: 767px) {
             font-size: 14px;
         }
+        @media (max-width: 500px) {
+            font-size: 12px;
+        }
     }
     input, select{
         width: 100%;

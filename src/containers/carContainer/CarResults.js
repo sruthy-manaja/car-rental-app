@@ -2,7 +2,6 @@ import React, {useState, useEffect} from 'react'
 import {CarResultsWrapper} from "./CarContainer.styles"
 import {Modal} from "react-bootstrap"
 import Car from './Car';
-import _ from "lodash";
 
 function CarResults(props) {
   const [filterVal, setFilterVal] = useState(false);
